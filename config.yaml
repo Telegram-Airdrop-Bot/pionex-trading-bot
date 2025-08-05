@@ -1,0 +1,134 @@
+api:
+  key: ''
+  retry_attempts: 3
+  retry_backoff: 1.5
+  secret: ''
+  timeout: 30
+backtesting:
+  enabled: false
+  paper_trading: true
+bollinger_bands:
+  n_std: 2.0
+  squeeze_detection: true
+  window: 20
+candlestick_analysis:
+  enabled: true
+  patterns:
+  - engulfing
+  - pin_bar
+  - doji
+  - marubozu
+  - three_soldiers
+  - three_crows
+  - morning_star
+  - evening_star
+  strength_threshold: 1.0
+default_strategy: ADVANCED_STRATEGY
+dynamic_sl_tp:
+  atr_period: 14
+  enabled: true
+  min_sl_percentage: 1.5
+  min_tp_percentage: 2.5
+  sl_multiplier: 2.0
+  tp_multiplier: 3.0
+futures:
+  enabled: true
+  grid:
+    max_grids: 100
+    max_investment: 10000.0
+    min_investment: 10.0
+  hedging:
+    enabled: true
+    max_positions: 5
+gui:
+  debug: false
+  host: 127.0.0.1
+  port: 5000
+  secret_key: your-secret-key-here
+leverage: 10
+logging:
+  file: logs/trading_bot.log
+  level: INFO
+  per_instance: true
+macd:
+  crossover_detection: true
+  fast: 12
+  signal: 9
+  slow: 26
+margin_type: ISOLATED
+notifications:
+  email:
+    enabled: false
+    error_notifications: true
+    recipient_email: ''
+    sender_email: ''
+    sender_password: ''
+    smtp_port: 587
+    smtp_server: smtp.gmail.com
+    status_notifications: true
+    trade_notifications: true
+obv_analysis:
+  divergence_detection: true
+  enabled: true
+  trend_strength_threshold: 0.3
+position_size: 0.5
+rsi:
+  multi_tf:
+    enabled: true
+    thresholds:
+      long_1h: 50
+      long_5m: 30
+      short_1h: 50
+      short_5m: 70
+    timeframes:
+    - 5m
+    - 1h
+  overbought: 70
+  oversold: 30
+  period: 7
+stop_loss_percentage: 1.5
+strategy_descriptions:
+  ADVANCED_STRATEGY: Combined strategy using multiple indicators with dynamic SL/TP
+  DCA: Dollar Cost Averaging strategy
+  GRID_TRADING: Grid trading strategy for range-bound markets
+  MANUAL: Manual trading with full user control
+  RSI_MULTI_TF: Multi-timeframe RSI strategy for better signal accuracy
+  RSI_STRATEGY: Basic RSI-based trading strategy
+  VOLUME_FILTER: Volume-based strategy with EMA filter
+strategy_types:
+  ADVANCED_STRATEGY: Advanced Strategy
+  DCA: Dollar Cost Averaging
+  GRID_TRADING: Grid Trading
+  MANUAL: Manual Trading
+  RSI_MULTI_TF: RSI Multi-Timeframe
+  RSI_STRATEGY: RSI Strategy
+  VOLUME_FILTER: Volume Filter Strategy
+support_resistance:
+  price_action_analysis: true
+  trend_analysis: true
+  window: 20
+take_profit_percentage: 2.5
+trading_hours:
+  enabled: true
+  end: 01:30
+  start: '19:30'
+  timezone: UTC-5
+trading_pair: BTC_USDT
+trailing_stop:
+  dynamic_mobile_sl: true
+  enable_after_tp: true
+  enabled: true
+  percentage: 1.0
+  profit_lock_percentage: 0.5
+trailing_stop_percentage: 1
+volume_filter:
+  ema_period: 20
+  enhanced_analysis: true
+  multiplier: 1.5
+watchdog:
+  auto_restart: true
+  cpu_threshold: 80
+  enabled: true
+  heartbeat_interval: 60
+  max_failures: 3
+  memory_threshold: 200

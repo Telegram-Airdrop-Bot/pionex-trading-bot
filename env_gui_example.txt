@@ -1,0 +1,20 @@
+# Pionex Trading Bot GUI - Environment Variables
+# Copy this file to .env and fill in your actual values
+
+# Pionex API Credentials (Required)
+PIONEX_API_KEY=your_pionex_api_key_here
+PIONEX_SECRET_KEY=your_pionex_secret_key_here
+
+# Flask Secret Key (Required for session management)
+SECRET_KEY=your_flask_secret_key_here
+
+# Optional: Database Configuration
+# DATABASE_URL=sqlite:///trading_bot.db
+
+# Optional: Logging Level
+# LOG_LEVEL=INFO
+
+# Optional: GUI Configuration
+# GUI_HOST=127.0.0.1
+# GUI_PORT=5000
+# GUI_DEBUG=false 

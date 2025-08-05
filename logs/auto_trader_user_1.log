@@ -1,0 +1,15 @@
+2025-08-05 10:39:40,958 - AutoTrader_user_1 - INFO - AutoTrader instance initialized for user_1
+2025-08-05 10:39:40,962 - AutoTrader_user_1 - INFO - AutoTrader instance initialized for user_1
+2025-08-05 10:39:40,962 - AutoTrader_user_1 - INFO - AutoTrader instance initialized for user_1
+2025-08-05 10:39:40,969 - AutoTrader_user_1 - INFO - Auto trading enabled for user 1
+2025-08-05 10:39:40,969 - AutoTrader_user_1 - INFO - Auto trading enabled for user 1
+2025-08-05 10:39:40,976 - AutoTrader_user_1 - INFO - Auto trading started for DOT_USDT
+2025-08-05 10:39:40,976 - AutoTrader_user_1 - INFO - Auto trading started for DOT_USDT
+2025-08-05 10:39:45,386 - AutoTrader_user_1 - WARNING - No market data available for DOT_USDT
+2025-08-05 10:39:45,386 - AutoTrader_user_1 - WARNING - No market data available for DOT_USDT
+2025-08-05 10:39:52,160 - AutoTrader_user_1 - INFO - Auto trading disabled for user 1
+2025-08-05 10:39:52,160 - AutoTrader_user_1 - INFO - Auto trading disabled for user 1
+2025-08-05 10:39:57,168 - AutoTrader_user_1 - INFO - Auto trading stopped
+2025-08-05 10:39:57,168 - AutoTrader_user_1 - INFO - Auto trading stopped
+2025-08-05 10:39:57,485 - AutoTrader_user_1 - INFO - Auto trading disabled for user 1
+2025-08-05 10:39:57,485 - AutoTrader_user_1 - INFO - Auto trading disabled for user 1
